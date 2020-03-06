@@ -26,8 +26,8 @@ const adminSetupCard = ({ errors, handleChange, handleBackButton, admins, remove
         <Grid.Row>
           <Grid.Column>
             <div className='centered-content'>
-              <Button icon circular className='addButton'>
-                <Icon name='add' onClick={() => addAdminMail(newAdminMail)} />
+              <Button icon circular className='addButton' onClick={() => addAdminMail(newAdminMail)}>
+                <Icon name='add'/>
               </Button>
             </div>
           </Grid.Column>
