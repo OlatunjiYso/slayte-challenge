@@ -2,7 +2,7 @@ const path = require('path');
 const express = require('express');
 const app = express();
 
-const publicPath = path.join(__dirname, '..', 'onboarding-app/build');
+const publicPath = path.join(__dirname, '..', 'onboarding-app/public');
 
 const port = process.env.PORT || 7000;
 
