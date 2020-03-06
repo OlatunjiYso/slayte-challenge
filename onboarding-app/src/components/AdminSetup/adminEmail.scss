@@ -1,0 +1,16 @@
+.admin-email {
+  padding: 4px 8px;
+  display: inline-block;
+  border: 1px solid rgb(199, 134, 241);
+  margin: 5px;
+  border-radius: 4px;
+
+  .delete-email {
+    color: rgb(253, 175, 175);
+    font-size: medium;
+    cursor: pointer;
+  }
+  .delete-email:hover {
+    color: rgb(248, 82, 82);
+  }
+}
